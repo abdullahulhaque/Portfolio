@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Abdullah Ulhaque</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Abdullah Ulhaque</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="profile__pic-container">
+            <img src="./assets/profile-pic.png" alt="Abdullah Ulhaque profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Abdullah Ulhaque</h1>
+            <p class="section__text__p2">Aspiring Software Engineer</p>
+            <div class="btn-container">
+                <button
+                    class="btn btn-color-2"
+                    onclick="window.open('./assets/resume-example.pdf')"
+                >
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img
+                    src="./assets/linkedin.png"
+                    alt="My LinkedIn profile"
+                    class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/abdullahulhaque/'"
+                />
+                <img
+                    src="./assets/github.png"
+                    alt="My Github profile"
+                    class="icon"
+                    onclick="location.href='https://github.com/abdullahulhaque'"
+                />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="about__pic-container">
+                <img
+                    src="./assets/about-pic.png"
+                    alt="Profile picture"
+                    class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img
+                            src="./assets/experience.png"
+                            alt="Experience icon"
+                            class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>Undergraduate Student</p>
+                    </div>
+                    <div class="details-container">
+                        <img
+                            src="./assets/education.png"
+                            alt="Education icon"
+                            class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>B.Sc. from the University of Illinois Chicago<br /></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Aspiring Software Engineer with strong experience in AI, software development, and IT. 
+                        Skilled in C++, Python, JavaScript, and more. With a proven track record in project 
+                        leadership and innovative solutions. Seeking a Software Engineering Internship to 
+                        leverage technical and problem-solving skills.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">AI Engineering Intern</h2>
+                    <p><strong>Radical AI (Remote)</strong></p>
+                    <p><strong>May 2024 - Present</strong></p>
+                    <p>- Work within a squad of interns, collaborating on AI projects assigned by senior engineers.</p>
+                    <p>- Utilized algorithms for personalized and adaptive learning, and devise robust anti-cheat and fraud detection systems.</p>
+                    <p>- Harnessed AI and other tools such as ChatGPT, VertexAI, Google Cloud, LangChain, and Firebase to generate engaging content.</p>
+                    <p>- Crafted chatbot prompts that streamline interactions and reduce response times, fine-tuning existing models.</p>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Founder</h2>
+                    <p><strong>Independent Financial Ventures (Chicago, IL)</strong></p>
+                    <p><strong>Jan 2022 - Present</strong></p>
+                    <p>- Grew an investment portfolio from $150 to over $95,000 by focusing on NFTs, stocks, cryptocurrency, and web3 technologies.</p>
+                    <p>- Demonstrated expertise in financial markets and digital trends with a 49,990% growth rate.</p>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">IT Intern</h2>
+                    <p><strong>Goldfield Technologies (Chicago, IL)</strong></p>
+                    <p><strong>May 2022 - Aug 2022</strong></p>
+                    <p>- Developed data flow diagrams with Microsoft Visio to optimize business processes.</p>
+                    <p>- Gathered requirements and prepared design documents, enhancing ERP project outcomes through data analysis.</p>
+                </div>
+            </div>
+        </div>
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#projects'"
+        />
+    </section>
+    
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/project-1.png"
+                            alt="Project 1"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Online Shopping Cart</h2>
+                    <p><strong>C++</strong></p>
+                    <p>- Developed an interactive online shopping cart application in C++.</p>
+                    <p>- Implemented classes for managing items and the shopping cart, providing functionalities for adding, removing, and modifying items.</p>
+                    <p>- Used constructors, mutators, accessors, and member functions to manage item details and printing.</p>
+                    <p>- Designed a user interface to facilitate customer interactions with the shopping cart.</p>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/abdullahulhaque/Online-Shopping-Cart'"
+                        >
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/project-2.png"
+                            alt="Project 2"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">AI ChatBot</h2>
+                    <p><strong>Python/Flask, HTML/CSS & JavaScript</strong></p>
+                    <p>- Implemented backend server logic using Flask.</p>
+                    <p>- Integrated OpenAI API for generation of chat bot responses.</p>
+                    <p>- Designed a frontend user interface with HTML/CSS, and JavaScript.</p>
+                    <p>- Enhanced user experience by adding functionality to switch between different visual modes.</p>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/abdullahulhaque/AI-Chatbot'"
+                        >
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img
+                            src="./assets/project- 3.png"
+                            alt="Project 3"
+                            class="project-img"
+                        />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Programming Language & Interactive Quiz</h2>
+                    <p><strong>Python</strong></p>
+                    <p>- Developed an interactive quiz application using Python's Turtle module for GUI, focusing on data type questions across multiple languages.</p>
+                    <p>- Employed event-driven programming to enable dynamic content updates and user progress tracking with real-time feedback mechanisms.</p>
+                    <div class="btn-container">
+                        <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/abdullahulhaque/Programming-Language-Interactive-Quiz'"
+                        >
+                            Github
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img
+            src="./assets/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#contact'"
+        />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img
+                    src="./assets/email.png"
+                    alt="Email icon"
+                    class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:ulhaqueabdullah773@gmail.com">ulhaqueabdullah773@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img
+                    src="./assets/linkedin.png"
+                    alt="LinkedIn icon"
+                    class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/abdullahulhaque/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Abdullah Ulhaque. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
