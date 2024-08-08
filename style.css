@@ -12,7 +12,6 @@ body {
   background: #f9f9f9;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -369,6 +368,15 @@ article .icon {
 .project-btn {
   color: black;
   border-color: #a3a3a3;
+}
+
+/* Updated details-container class */
+.details-container {
+  margin: 20px; /* Add margin to space out the project containers */
+  padding: 20px; /* Add padding for inner spacing */
+  border-radius: 10px; /* Optional: add border-radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for better visual separation */
+  background-color: #fff; /* Ensure background color is white */
 }
 
 /* CONTACT */
