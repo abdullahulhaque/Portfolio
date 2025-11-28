@@ -5,7 +5,7 @@
 This is my personal portfolio website for showcasing my projects, skills, and experience as a software engineer.  
 It is built with HTML, CSS, and JavaScript, and deployed using Vercel.
 
-🔗 **Live Site:** https://portfolio-sand-iota-19.vercel.app/
+🔗 **Live Site:** https://www.abdullahulhaque.com/
 
 ---
 
