@@ -7,6 +7,13 @@ It is built with HTML, CSS, and JavaScript, and deployed using Vercel.
 
 🔗 **Live Site:** https://www.abdullahulhaque.com/
 
+## Demo Video
+
+[▶ Watch the portfolio walkthrough](https://youtu.be/7z__xxIGsl0)
+
+In this video, I walk through the portfolio site, show each section (About, Skills, Projects, Contact), and explain how I built and deployed it.
+
+
 ---
 
 ## Tech Stack
